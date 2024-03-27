@@ -20,7 +20,7 @@ const UserDetailsPage = () => {
         <img src={tab} alt="" />
       </div>
       <div className="flex flex-col-reverse lg:flex-row">
-        <div className="w-full lg:w-1/2 text-center lg:text-justify">
+        <div className="w-full lg:w-1/2 text-justify">
           <h1 className="text-3xl md:text-5xl font-semibold">{user.name}</h1>
           <p className="capitalize text-primary font-semibold pt-5 pb-10">
             {user.role}
@@ -35,7 +35,7 @@ const UserDetailsPage = () => {
           />
         </div>
       </div>
-      <p className="tracking-widest leading-loose text-center lg:text-justify lg:mt-10">
+      <p className="tracking-widest leading-loose text-justify lg:mt-10">
         {user.description}
       </p>
     </div>
